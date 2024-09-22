@@ -63,7 +63,8 @@ public class Main {
         FileWriter writer = new FileWriter(nomeArquivo);
         int cf = 10;
         writer.write("Matriz de Consumo por Subestação\n");
-        writer.write(String.format("%-" + cf + "s%-" + cf + "s%-" + cf + "s%-" + cf + "s%-" + cf + "s%-" + cf + "s%-" + cf + "s%-" + cf + "s%-" + cf + "s%-" + cf + "s%-" + cf + "s%-" + cf + "s%-" + cf + "s\n",
+        writer.write(String.format("%-" + cf + "s%-" + cf + "s%-" + cf + "s%-" + cf + "s%-" + cf + "s%-" + cf + "s%-" +
+                                   cf + "s%-" + cf + "s%-" + cf + "s%-" + cf + "s%-" + cf + "s%-" + cf + "s%-" + cf + "s\n",
         " ", "Jan", "Fev", "Mar", "Abr", "Mai", "Jun", "Jul", "Ago", "Set", "Out", "Nov", "Dez"));
             
         for (int i = 0; i < 5; i++) {
