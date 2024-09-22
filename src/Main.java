@@ -94,8 +94,8 @@ public class Main {
             }
         }
 
-        writer.write("\nSubestacao com maior consumo mensal\n" + maiorSubestacao + " - " + maiorMes + "\n");
-        writer.write("Subestacao com menor consumo mensal\n" + menorSubestacao + " - " + menorMes + "\n");
+        writer.write("\nSubestação com maior consumo mensal\n" + maiorSubestacao + " - " + maiorMes + "\n");
+        writer.write("Subestação com menor consumo mensal\n" + menorSubestacao + " - " + menorMes + "\n");
 
         int totalConsumo = 0;
         for (int i = 0; i < 5; i++) {
@@ -105,7 +105,7 @@ public class Main {
         }
         writer.write("\nTotal geral de consumo: " + totalConsumo + "\n");
 
-        writer.write("\nMedia de consumo mensal por subestacao\n");
+        writer.write("\nMédia de consumo mensal por subestação\n");
         for (int i = 0; i < 5; i++) {
             double totalSubestacao = 0;
             for (int j = 0; j < 12; j++) {
